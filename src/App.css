@@ -1,0 +1,109 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+/* MultiSelect.css */
+/* Adjust styles based on your design preferences */
+
+/* Basic styling for the input and chips container */
+.relative {
+  display: inline-block;
+}
+
+/* Styling for selected chips */
+.bg-blue-500 {
+  background-color: #3b82f6; /* Adjust color as needed */
+}
+
+.text-white {
+  color: #ffffff; /* Adjust text color as needed */
+}
+
+.rounded-md {
+  border-radius: 0.375rem; /* Adjust border radius as needed */
+}
+
+/* Styling for input and chip container */
+.flex {
+  display: flex;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.gap-2 {
+  gap: 0.5rem; /* Adjust gap as needed */
+}
+
+.p-2 {
+  padding: 0.5rem; /* Adjust padding as needed */
+}
+
+.border {
+  border-width: 1px;
+  border-color: #e5e7eb; /* Adjust border color as needed */
+}
+
+.focus-within\:ring-2:focus {
+  border-color: #666666; /* Adjust focus border color as needed */
+}
+
+/* Styling for chips */
+.px-2 {
+  padding-left: 0.5rem; /* Adjust padding as needed */
+  padding-right: 0.5rem; /* Adjust padding as needed */
+}
+
+/* Styling for the 'X' button in chips */
+.focus\:outline-none:focus {
+  outline: none;
+}
+
+/* Styling for the dropdown */
+.absolute {
+  position: absolute;
+}
+
+.mt-2 {
+  margin-top: 0.5rem; /* Adjust margin as needed */
+}
+
+.shadow-md {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  /* Adjust box-shadow as needed */
+}
+
+/* Styling for dropdown items */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.hover\:bg-gray-200:hover {
+  background-color: #edf2f7; /* Adjust hover background color as needed */
+}
+.input-box {
+  width: 400px;
+  height: 40px;
+}
+.cross-button {
+  margin-left: 6px;
+  background-color: transparent;
+  border: none;
+  font-size: 32px;
+}
+.highlighted-chip {
+  border: 2px solid red;
+}
+.filter-item:hover {
+  background-color: #edf2f7;
+}
+.chip {
+  border-radius: 100px;
+}
+
